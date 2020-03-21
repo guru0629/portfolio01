@@ -1,5 +1,8 @@
 @import url(sanitize.css);
 
+body {
+  min-width: 1024px;
+
 .container {
   text-align: center;
   width: 100%;
