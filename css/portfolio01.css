@@ -1,0 +1,134 @@
+@import url(sanitize.css);
+
+.container {
+  text-align: center;
+}
+
+header {
+  background-color: rgba(51,51,51,.8);
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  height: 60px;
+  line-height: 60px;
+}
+
+ul {
+  list-style: none;
+  color: white;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  width: 30%;
+}
+
+.fas {
+  padding-right: 10px;
+}
+
+.header-list a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+  transition: all .8s;
+}
+
+.header-list a:hover {
+  background-color: white;
+  color: black;
+}
+
+.main {
+  background: linear-gradient( to bottom, rgba(31, 27, 90, 0.8),rgba(155, 54, 116, 0.623)),url(../img/laptop-2234342_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  position: relative;
+}
+
+.main h1 {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 70px;
+  opacity: 0.7;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: tlanslate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin: 0;
+  padding: 0;
+}
+
+.about-profile {
+  padding-top: 100px;
+
+}
+
+.about-profile h2 {
+  display: inline-block;
+  font-size: 50px;
+  border-bottom: double 5px rgb(132, 112, 163)
+}
+
+.about-works {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.about-works h2 {
+  display: inline-block;
+  font-size: 50px;
+  border-bottom: double 5px rgb(132, 112, 163)
+}
+
+.works-card {
+  width: 350px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
+  width: 30%;
+  display: inline-block;
+  margin: 50px;
+}
+
+.card-image {
+  border-radius: 5px 5px 0 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+footer {
+  background-color: rgba(51,51,51,.8);
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  clear: both;
+}
+
+@media only screen and (max-width: 670px) {
+  .header-list a {
+    font-size: 12px;
+  }
+
+  .main h1 {
+    font-size: 30px;
+  }
+
+.container h2 {
+  font-size: 20px;
+}
+
+  .works-card {
+    width: 80%;
+  } 
+}
